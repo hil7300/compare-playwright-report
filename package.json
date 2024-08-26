@@ -1,0 +1,18 @@
+{
+  "name": "my-playwright-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "parse-report": "ts-node src/scripts/parseReport.ts"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.46.1",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.1",
+    "playwright": "^1.46.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
